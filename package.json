@@ -1,0 +1,41 @@
+{
+  "name": "@publishvue/netlifyauth",
+  "version": "1.0.0",
+  "contributors": [
+    "hyperbotauthor <hyperchessbotauthor@gmail.com>"
+  ],
+  "description": "Netlify auth.",
+  "keywords": [
+    "netlify",
+    "auth"
+  ],
+  "main": "",
+  "bin": {},
+  "config": {},
+  "files": [
+    "*"
+  ],
+  "repository": "https://github.com/hyperbotauthor/netlifyauth",
+  "homepage": "https://github.com/hyperbotauthor/netlifyauth#netlifyauth",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/netlifyauth/issues",
+    "email": "hyperchessbotauthor@gmail.com"
+  },
+  "scripts": {
+    "prepare": "",
+    "dev": "netlify dev",
+    "build": "netlify build",
+    "generate": "",
+    "clean": "",
+    "serve": "",
+    "prettier": "prettier -w src",
+    "test": "",
+    "dry": "netlify build --dry"
+  },
+  "devDependencies": {
+    "netlify-cli": "^6.13.2",
+    "node-fetch": "2.6.5",
+    "parse-git-config": "^3.0.0",
+    "prettier": "^2.4.1"
+  }
+}
